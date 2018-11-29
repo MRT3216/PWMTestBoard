@@ -2,7 +2,8 @@
 - Arduino Board that controls a PWM output with a joystick input.
 
 ## Debugging
-- Uncomment all Serial lines and change delay from 15ms to 100ms. 
+- Change DEBUG_MODE to true to start debugging
+- Change DEBUG_MODE to false to return to normal operations
 
 ## Wiring
 | Wire  | Arduino Port |
