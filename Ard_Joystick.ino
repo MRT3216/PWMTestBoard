@@ -23,4 +23,8 @@ void loop() {
   //Serial.print("\n");
   servo.write(val);                          // sets the PWM output according to the scaled value
   delay(15);                                 // delay to slow the loop() (15 for normal operations : 100 for debugging/logging)
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> parent of 13ad218... Reformatted Debugging
