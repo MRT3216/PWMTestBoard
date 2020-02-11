@@ -5,7 +5,7 @@ Servo servo;                                  // Allows arduino to send PWM outp
 const int joystick_pin = 0;                   // analog in pin connected to joystick VRx or VRy
 const int signal_out_pin = 5;                 // digital output pin (PWM~)
 int val;
-const int DEBUG_MODE = false;                 // Change to true to run debugging mode
+const int DEBUG_MODE = true;                 // Change to true to run debugging mode
 
 void setup() {
   servo.attach(signal_out_pin);               // Output PWM signal
